@@ -1,5 +1,5 @@
 import React from 'react';
-import EachExample from './Example/EachExample';
+import EachExample from './Example/Example';
 import { EXAMPLES } from '../data';
 
 

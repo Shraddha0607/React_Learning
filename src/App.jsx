@@ -2,7 +2,7 @@
 import CoreConcepts from "./Components/CoreConcepts/CoreConcepts.jsx";
 import { CORE_CONCEPTS, EXAMPLES } from "./data";
 import Header from "./Components/Header/Header.jsx";
-import EachExample from "./Components/Example/EachExample.jsx";
+import Example from "./Components/Example/Example.jsx";
 import TabButton from "./Components/TabButton.jsx";
 import { useState } from "react";
 
@@ -17,7 +17,8 @@ function App() {
 
   let content = <p>Nothing selected</p>;
   if(tabContent ){
-    content = <EachExample
+    console.log("ghjk");
+    content = <Example
     details={EXAMPLES[tabContent]}/>
   } 
 

@@ -1,6 +1,6 @@
 import React from 'react'
 
-function EachExample(props) {
+function Example(props) {
   return (
     <div id="tab-content">
       <h3>{props.details.title}</h3>
@@ -15,4 +15,4 @@ function EachExample(props) {
 }
 
 
-export default EachExample
+export default Example
